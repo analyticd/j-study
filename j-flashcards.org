@@ -1,0 +1,1387 @@
+* J flashcards
+** Verbs   
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       6C5500D3-553C-4497-8EA0-DDC50597AD82
+:END:
+Translate
+**** Symbol
+=
+**** Meaning (monadic • dyadic)
+Self-Classify •Equal              
+*** V                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       1E75391D-1199-42C5-9D1B-A20A1358DB5E
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:41]
+:END:
+Translate
+**** Symbol
+<
+**** Meaning (monadic • dyadic)
+Box •Less Than                    
+*** V                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       10081ABD-06A8-4CBA-9AEF-E41356B38A73
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:42]
+:END:
+Translate
+**** Symbol
+<.
+**** Meaning (monadic • dyadic)
+Floor •Lesser Of (Min)            
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       56024B73-352A-45D1-AA12-CED7089E0D7C
+:END:
+Translate
+**** Symbol
+<:
+**** Meaning (monadic • dyadic)          
+Decrement •Less Or Equal
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       B69CBFF5-0102-4630-9FD1-143177A1B4B1
+:END:
+Translate
+**** Symbol
+>
+**** Meaning (monadic • dyadic)                 
+Open •Larger Than
+*** V                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       9C7168F7-9AD6-4F5F-8E23-179576253602
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:40]
+:END:
+Translate
+**** Symbol
+>.
+**** Meaning (monadic • dyadic)          
+Ceiling •Larger of (Max)
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       7CC16671-AB7A-44B7-85BB-2855F0CEFC88
+:END:
+Translate
+**** Symbol
+>:
+**** Meaning (monadic • dyadic)        
+Increment •Larger Or Equal
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F943A154-8F7E-44DD-A752-7A4C7CCDC8FA
+:END:
+Translate
+**** Symbol
+_: 
+**** Meaning (monadic • dyadic)        
+Infinity
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E83325B0-A660-4662-A5BF-CBC75F5EA41E
+:END:
+Translate
+**** Symbol
++
+**** Meaning (monadic • dyadic)
+Conjugate •Plus                   
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       83CF0310-C35E-44F1-A196-A4B5CFA83F3B
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:41]
+:END:
+Translate
+**** Symbol
++.
+**** Meaning (monadic • dyadic)
+Real / Imaginary •GCD (Or)        
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       009C16D9-30AE-4F25-A68D-8F45D329E9B7
+:END:
+Translate
+**** Symbol
++:
+**** Meaning (monadic • dyadic)
+Double •Not-Or                    
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       B6016A7B-4720-4CCF-B584-DFDCF52CA192
+:END:
+Translate
+**** Symbol
+ *
+**** Meaning (monadic • dyadic)
+Signum •Times                     
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       6B3E712B-663D-467D-A4BB-E465E7EF2001
+:END:
+Translate
+**** Symbol
+ *.
+**** Meaning (monadic • dyadic)
+Length/Angle •LCM (And)           
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       09C74E04-C035-443B-9949-ABB92D451D05
+:END:
+Translate
+**** Symbol
+ *:
+**** Meaning (monadic • dyadic)
+Square •Not-And                   
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       012AE506-FCAC-433A-B940-14A47CBE33A5
+:END:
+Translate
+**** Symbol
+-
+**** Meaning (monadic • dyadic)
+Negate •Minus                     
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       C4932A84-96DA-44BC-BEA2-9316298B907B
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:42]
+:END:
+Translate
+**** Symbol
+-.
+**** Meaning (monadic • dyadic)
+Not •Less                         
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       757035D0-F4F7-4808-8A91-D9899A64E7BA
+:END:
+Translate
+**** Symbol
+-:
+**** Meaning (monadic • dyadic)
+Halve •Match                      
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E15C9572-FBE5-462A-8B90-5865D006C5A7
+:END:
+Translate
+**** Symbol
+%
+**** Meaning (monadic • dyadic)
+Reciprocal •Divide                
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       8FD15903-148D-43D4-B78D-008DD6C04991
+:END:
+Translate
+**** Symbol
+%. 
+**** Meaning (monadic • dyadic)
+Matrix Inverse •Matrix Divide
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       2C0C7674-DB5D-4852-A302-D3623AE80C30
+:END:
+Translate
+**** Symbol
+%: 
+**** Meaning (monadic • dyadic)
+Square Root •Root
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       613E1C1A-6717-4E6F-A539-B244B462D86B
+:END:
+Translate
+**** Symbol
+^
+**** Meaning (monadic • dyadic)
+Exponential •Power                
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       C05410A8-FDAA-4C28-A3A5-D8FBDCE13B98
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:39]
+:END:
+Translate
+**** Symbol
+^.
+**** Meaning (monadic • dyadic)
+Natural Log •Logarithm            
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       C67E3162-BF21-4945-A7B9-A13B8303D784
+:END:
+Translate
+**** Symbol
+$
+**** Meaning (monadic • dyadic)
+Shape Of •Shape                   
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       2705F6B0-1138-4FA3-9113-B2D3F639B5A4
+:END:
+Translate
+**** Symbol
+$. 
+**** Meaning (monadic • dyadic)
+Sparse
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       81416E34-A33C-4626-BA23-F525FA7C26DB
+:END:
+Translate
+**** Symbol
+$: 
+**** Meaning (monadic • dyadic)
+Self-Reference
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       7295A041-F6E2-49F2-B60C-22DC0389DB0F
+:END:
+Translate
+**** Symbol
+~.
+**** Meaning (monadic • dyadic)
+Nub •                             
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       3577057E-36C1-47FD-96F4-3591F84BA25D
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:39]
+:END:
+Translate
+**** Symbol
+~:
+**** Meaning (monadic • dyadic)
+Nub Sieve •Not-Equal              
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       200FCE7B-9106-400D-AE66-95538870BA83
+:END:
+Translate
+**** Symbol
+|
+**** Meaning (monadic • dyadic)
+Magnitude •Residue                
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       CB7F09E3-4065-43C3-8583-812824038841
+:END:
+Translate
+**** Symbol
+|.
+**** Meaning (monadic • dyadic)
+Reverse •Rotate (Shift)                                                                                  
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       8417935E-4853-4D4E-8477-EAC48D8EAADF
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:42]
+:END:
+Translate
+**** Symbol
+|:
+**** Meaning (monadic • dyadic)
+Transpose                                                                                                
+*** V                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       81CC9291-6FAB-4330-8CF8-729549D2D6F4
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:41]
+:END:
+Translate
+**** Symbol
+,
+**** Meaning (monadic • dyadic)
+Ravel •Append                                                                                            
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E2219025-9112-48B1-8438-E0B643C23EA2
+:END:
+Translate
+**** Symbol
+,.
+**** Meaning (monadic • dyadic)
+Ravel Items •Stitch                                                                                      
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       39B41B6F-338F-47E4-B47B-BBFD602EED59
+:END:
+Translate
+**** Symbol
+,:
+**** Meaning (monadic • dyadic)
+Itemize •Laminate                                                                                        
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       64DC7EC5-40B2-42B7-BADC-E182EF0980B5
+:END:
+Translate
+**** Symbol
+;
+**** Meaning (monadic • dyadic)
+Raze •Link                                                                                               
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F686808B-6D84-4639-9CD7-8125D75956E1
+:END:
+Translate
+**** Symbol
+;:
+**** Meaning (monadic • dyadic)
+Words •Sequential Machine                                                                                
+*** V                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       0401DDBD-D2A1-4E97-90E1-F1529B06C002
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:43]
+:END:
+Translate
+**** Symbol
+ #
+**** Meaning (monadic • dyadic)
+Tally •Copy                                                                                              
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F52333B5-81C8-4BB7-8C4E-5580018CB629
+:END:
+Translate
+**** Symbol
+#.
+**** Meaning (monadic • dyadic)
+Base 2 •Base                                                                                             
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       5431FECA-4AB0-4A23-B999-339FA94AD29A
+:END:
+Translate
+**** Symbol
+#:
+**** Meaning (monadic • dyadic)
+Antibase 2 •Antibase                                                                                     
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       83A75F79-8972-41CD-A5E7-05C07312B863
+:END:
+Translate
+**** Symbol
+!
+**** Meaning (monadic • dyadic)
+Factorial •Out Of                                                                                        
+*** V                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       CE53A7CB-CB29-4CB5-8B72-147018EBC0E5
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:42]
+:END:
+Translate
+**** Symbol
+/:
+**** Meaning (monadic • dyadic)
+Grade Up •Sort                                                                                           
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       7997F285-0F3C-48F7-B6A4-7D5FE9B3027B
+:END:
+Translate
+**** Symbol
+\:
+**** Meaning (monadic • dyadic)
+Grade Down •Sort                                                                                         
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       6453A210-2EFB-4F58-9063-52614B22C441
+:END:
+Translate
+**** Symbol
+[
+**** Meaning (monadic • dyadic)
+Same •Left                                                                                               
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       14683F53-436A-47B3-8F63-95D88085F7C3
+:END:
+Translate
+**** Symbol
+[:
+**** Meaning (monadic • dyadic)
+Cap                                                                                                      
+*** V                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       9B933808-3E0F-42F8-AE1C-A73FE65D049B
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:40]
+:END:
+Translate
+**** Symbol
+]
+**** Meaning (monadic • dyadic)
+Same •Right                                                                                              
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       27B27227-5DC5-4406-BB53-C2D7EEFEE140
+:END:
+Translate
+****  Symbol
+{  
+**** Meaning (monadic • dyadic)
+Catalogue •From
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       1CD9301A-4698-4E19-8B78-B25F8C1502F7
+:END:
+Translate
+****  Symbol
+{. 
+**** Meaning (monadic • dyadic)
+Head •Take
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       69CFECAF-30F4-44CB-B6CA-B35D8CD3EED6
+:END:
+Translate
+**** Symbol
+{: 
+**** Meaning (monadic • dyadic)
+Tail •
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       85C8B60D-8A1F-4569-8253-98963A78E581
+:END:
+Translate
+**** Symbol
+{:: 
+**** Meaning (monadic • dyadic)
+Map •Fetch
+*** V                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       015CD50E-0A03-448C-9586-C8EC1D9BE19C
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:40]
+:END:
+Translate
+**** Symbol
+*}.
+**** Meaning (monadic • dyadic)
+Behead •Drop                                                                                             
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       780F5213-7906-4AB1-822E-7482477A7F4E
+:END:
+Translate
+****  Symbol
+}:
+**** Meaning (monadic • dyadic)
+Curtail •                                                                                                
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E5541CF1-584F-4595-B28B-4834CE897262
+:END:
+Translate
+**** Symbol
+".
+**** Meaning (monadic • dyadic)
+Do •Numbers                                                                                              
+*** V                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       EBEC734D-8AE7-4D5A-993D-D78E30132916
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:40]
+:END:
+Translate
+**** Symbol
+":
+**** Meaning (monadic • dyadic)
+Default Format •Format                                                                                   
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       12A3B078-B337-46D5-B021-1355AC59D78F
+:END:
+Translate
+**** Symbol
+?
+**** Meaning (monadic • dyadic)
+Roll •Deal                                                                                               
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       706E97D5-A788-45F4-A035-8B3AA89A4E4E
+:END:
+Translate
+**** Symbol
+?.
+**** Meaning (monadic • dyadic)
+Roll •Deal (fixed seed)                                                                                  
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       36B8A48D-9269-4A0E-9D2D-E2D3CD9FEE81
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:42]
+:END:
+Translate
+**** Symbol
+A. 
+**** Meaning (monadic • dyadic)
+Anagram Index •Anagram
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       58EA4B0B-0752-435E-AFD3-1D533DA68C9C
+:END:
+Translate
+**** Symbol
+C. 
+**** Meaning (monadic • dyadic)
+Cycle-Direct •Permute
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       5C19E80B-7B42-423B-8BEE-B40825FAC6BF
+:END:
+Translate
+**** Symbol
+e. 
+**** Meaning (monadic • dyadic)
+Raze In •Member (In)
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F21E1495-9411-449C-8FFD-83581E19D03D
+:END:
+Translate
+**** Symbol
+E. 
+**** Meaning (monadic • dyadic)
+•Member of Interval
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F6C29F2C-56B6-45E6-9953-901076C79407
+:END:
+Translate
+**** Symbol
+i. 
+**** Meaning (monadic • dyadic)
+Integers •Index Of
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       C52E7A5B-85EF-434D-9640-6F08F4D9E521
+:END:
+Translate
+**** Symbol
+i: 
+**** Meaning (monadic • dyadic)
+Steps •Index Of Last
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       9E7B8376-AE32-40EF-9AA7-3AC5DB3CAFBF
+:END:
+Translate
+**** Symbol
+I. 
+**** Meaning (monadic • dyadic)
+Indices •Interval Index
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       72BD229C-E019-4167-BB1F-F6874A981F46
+:END:
+Translate
+**** Symbol
+j. 
+**** Meaning (monadic • dyadic)
+Imaginary •Complex
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       C3C9B103-9411-4D91-A6A6-50056BE2088E
+:END:
+Translate
+**** Symbol
+L. 
+**** Meaning (monadic • dyadic)
+Level Of •
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       0DFD6BC2-E9ED-4F16-8C1C-2691438C104D
+:END:
+Translate
+**** Symbol
+o. 
+**** Meaning (monadic • dyadic)
+Pi Times •Circle Function
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       93135391-9E94-43C9-9867-5F6D57D66ABB
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:40]
+:END:
+Translate
+**** Symbol
+p. 
+**** Meaning (monadic • dyadic)
+Roots •Polynomial
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F3645E87-6AD7-47F2-840E-643B99BB09D6
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:41]
+:END:
+Translate
+**** Symbol
+p.. 
+**** Meaning (monadic • dyadic)
+Poly. Deriv. •Poly. Integral
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       D1E4217F-5C6F-4279-B8CD-64A850309FEB
+:END:
+Translate
+**** Symbol
+p: 
+**** Meaning (monadic • dyadic)
+Primes
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       B0A0DC30-7564-4576-9A31-8AE04AC02547
+:END:
+Translate
+**** Symbol
+q: 
+**** Meaning (monadic • dyadic)
+Prime Factors •Prime Exponents
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E7596062-E99F-49FE-9FB5-6BBD8D82AFFD
+:END:
+Translate
+**** Symbol
+r. 
+**** Meaning (monadic • dyadic)
+Angle •Polar
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       0A8B5AE9-E91C-4845-84C3-028BAF426141
+:END:
+Translate
+**** Symbol
+s: 
+**** Meaning (monadic • dyadic)
+Symbol
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       5AF98777-2F50-4B77-B615-7FA1F0CB61A9
+:END:
+Translate
+**** Symbol
+u: 
+**** Meaning (monadic • dyadic)
+Unicode
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       645B60C1-27E1-43C6-A295-698E5B0AB7FB
+:END:
+Translate
+**** Symbol
+x: 
+**** Meaning (monadic • dyadic)
+Extended Precision
+*** V                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       619F4F10-5196-459C-8F0E-DF6664D556D9
+:END:
+Translate
+**** Symbol
+_9: to 9: 
+**** Meaning (monadic • dyadic)
+Constant Functions
+** Adverbs    
+*** ADV                                                               :drill:
+:PROPERTIES:
+:ID:       10D0A27D-EBAC-47C4-B621-AFB47477C3A5
+:END:
+Translate
+**** Symbol
+~
+**** Meaning (monadic • dyadic)
+Reflex •Passive / Evoke
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       251F6DF2-3539-4346-B654-5443673F9007
+:END:
+Translate
+**** Symbol
+/
+**** Meaning (monadic • dyadic)
+Insert •Table
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       78F8D2F8-4EA2-4EB8-B121-F5D6B09A518B
+:END:
+Translate
+**** Symbol
+/.
+**** Meaning (monadic • dyadic)
+Oblique •Key
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       1E390DE1-3C9C-4B12-8123-C5F91599C8E0
+:END:
+Translate
+**** Symbol
+\
+**** Meaning (monadic • dyadic)
+Prefix •Infix
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       3494A43F-CE6C-474C-9CE9-CEDA3198CB56
+:END:
+Translate
+**** Symbol
+\.
+**** Meaning (monadic • dyadic)
+Suffix •Outfix
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       D7F072CE-87CC-424A-AC16-C93AB42C844F
+:END:
+Translate
+**** Symbol
+ *}
+**** Meaning (monadic • dyadic)
+Item Amend •Amend (m} u})
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       FE1AAC4E-B1D3-46DC-9E11-11947EA77711
+:END:
+Translate
+**** Symbol
+b. 
+**** Meaning (monadic • dyadic)
+Boolean / Basic
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       5A17D1C2-6745-41EE-BD7A-5683653583D0
+:END:
+Translate
+**** Symbol
+f. 
+**** Meaning (monadic • dyadic)
+Fix
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F527058A-6B33-4AEA-9AC0-64BF4C1C453D
+:END:
+Translate
+**** Symbol
+M. 
+**** Meaning (monadic • dyadic)
+Memo
+*** ADV                                                               :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       3841304E-FB86-4EE7-A14A-66FDE0E3431F
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:39]
+:END:
+Translate
+**** Symbol
+t. 
+**** Meaning (monadic • dyadic)
+Taylor Coeff. (m t. u t.)
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       06ABA1B8-360A-406D-A5D5-B4B18D106A09
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 1
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:39]
+:END:
+Translate
+**** Symbol
+t: 
+**** Meaning (monadic • dyadic)
+Weighted Taylor
+** Conjunctions    
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       68D34A9D-C94C-4E37-B8DE-567AC25782C9
+:END:
+Translate
+**** Symbol
+^:
+**** Meaning (monadic • dyadic)
+Power (u^:n u^:v)
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       C7753F04-D880-4DE4-A850-673FCFD45C47
+:END:
+Translate
+**** Symbol
+.
+**** Meaning (monadic • dyadic)
+Determinant •Dot Product
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       7D169469-E56A-4EB3-95A8-6FA53E35A957
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:41]
+:END:
+Translate
+**** Symbol
+..
+**** Meaning (monadic • dyadic)
+Even
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       0077B549-2504-48E7-9CB7-0909480CF9DD
+:END:
+Translate
+**** Symbol
+.:
+**** Meaning (monadic • dyadic)
+Odd
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       8DFBB549-CA26-4392-9E72-8D6A5F35027C
+:END:
+Translate
+**** Symbol
+:
+**** Meaning (monadic • dyadic)
+Explicit / Monad-Dyad
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       6B2A19DE-6361-4B9E-9243-7B9D4EAC9E93
+:END:
+Translate
+**** Symbol
+:.
+**** Meaning (monadic • dyadic)
+Obverse
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       738C35D6-1886-4FA9-AFD3-9591B64E2553
+:END:
+Translate
+**** Symbol
+::
+**** Meaning (monadic • dyadic)
+Adverse
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       B16453B7-2222-4D5C-8670-2EAAD9F1E967
+:END:
+Translate
+**** Symbol
+;.
+**** Meaning (monadic • dyadic)
+Cut
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       0E7FA915-DB55-47FB-B17C-D72B886BE504
+:END:
+Translate
+**** Symbol
+!.
+**** Meaning (monadic • dyadic)
+Fit (Customize)
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       2C7D210B-BF7B-41CA-9A4E-5F860066A003
+:END:
+Translate
+**** Symbol
+!:
+**** Meaning (monadic • dyadic)
+Foreign
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       2DE8D872-D119-4470-B193-05336C40A2CD
+:END:
+Translate
+**** Symbol
+"
+**** Meaning (monadic • dyadic)
+Rank (m"n u"n m"v u"v)
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       9EC37CD9-8293-45A5-88F6-42429794E6A1
+:END:
+Translate
+**** Symbol
+`
+**** Meaning (monadic • dyadic)
+Tie (Gerund)
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F98DAE59-5A67-468C-9D57-DE1D2C8A432E
+:END:
+Translate
+**** Symbol
+`:
+**** Meaning (monadic • dyadic)
+Evoke Gerund
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       4BA7A724-4024-4230-BC1D-70ACE5D020BE
+:END:
+Translate
+**** Symbol
+@
+**** Meaning (monadic • dyadic)
+Atop
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       73FDF972-3217-4437-8A28-9268D43848B2
+:END:
+Translate
+**** Symbol
+@. 
+**** Meaning (monadic • dyadic)
+Agenda
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       142C8760-CCE9-4563-99A0-2EA47C5E295A
+:END:
+Translate
+**** Symbol
+@: 
+**** Meaning (monadic • dyadic)
+At
+*** C                                                                 :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       27504731-D54C-4EE5-BCC5-5C285E3626F5
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:42]
+:END:
+Translate
+**** Symbol
+&
+**** Meaning (monadic • dyadic)
+Bond / Compose
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       DA5AB087-F199-4EC3-85BA-E7D78BA76C5C
+:END:
+Translate
+**** Symbol
+&.
+**** Meaning (monadic • dyadic)
+Under (Dual)
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       45693F28-B073-41D1-AA10-70168437BB4B
+:END:
+Translate
+**** Symbol
+&.:
+**** Meaning (monadic • dyadic)
+Under (Dual)
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       1944435A-107B-43FC-BF49-893B32B74558
+:END:
+Translate
+**** Symbol
+&:
+**** Meaning (monadic • dyadic)
+Appose
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       D81DF7B4-6B40-4DCA-91FD-37017CF17498
+:END:
+Translate
+**** Symbol
+d. 
+**** Meaning (monadic • dyadic)
+Derivative
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F01B0AF4-8F46-414A-AEDF-EB9406F70336
+:END:
+Translate
+**** Symbol
+D. 
+**** Meaning (monadic • dyadic)
+Derivative
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       86DD177D-F85A-45C6-AE31-2173F5F3C41C
+:END:
+Translate
+**** Symbol
+D: 
+**** Meaning (monadic • dyadic)
+Secant Slope
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       943F54D6-2049-4AB8-9624-25EFA1221123
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:42]
+:END:
+Translate
+**** Symbol
+H. 
+**** Meaning (monadic • dyadic)
+Hypergeometric
+*** C                                                                 :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       315F23C3-AA50-4BBB-AB39-5EAA7E52C839
+:END:
+Translate
+**** Symbol
+L: 
+**** Meaning (monadic • dyadic)
+Level At
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       29128581-3398-43D1-BF73-9E0BCAFE5F4B
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:40]
+:END:
+Translate
+****  Symbol
+S: 
+**** Meaning (monadic • dyadic)
+Spread
+*** ADV                                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       9ADC0798-45C0-4C87-A917-B2F86599B369
+:END:
+Translate
+****  Symbol
+T. 
+**** Meaning (monadic • dyadic)
+Taylor Approximation
+** Others     
+*** Other                                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       D1CE130E-E21D-46C8-AD9F-C339B475500D
+:END:
+Translate
+**** Symbol
+=. 
+**** Meaning (monadic • dyadic)
+Is (Local)
+*** Other                                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       9F59F5CB-3F39-43F1-97F3-2F9383825843
+:END:
+Translate
+**** Symbol
+=: 
+**** Meaning (monadic • dyadic)
+Is (Global)
+*** Other                                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F6851D67-8550-488F-B6E2-DAC94FA586B0
+:END:
+Translate
+**** Symbol
+_  
+**** Meaning (monadic • dyadic)
+Negative Sign / Infinity
+*** Other                                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       49C8B5F3-00FB-4139-9F9B-D9D7AFAF1F7F
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 16:39]
+:END:
+Translate
+**** Symbol
+_. 
+**** Meaning (monadic • dyadic)
+Indeterminate
+*** Other                                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       AB4F688B-0468-47AB-9BC8-A74B177E3AB9
+:END:
+Translate
+**** Symbol
+a. 
+**** Meaning (monadic • dyadic)
+Alphabet
+*** Other                                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       EEAB5D0F-280C-4797-858A-F95A8E441A0F
+:END:
+Translate
+**** Symbol
+a: 
+**** Meaning (monadic • dyadic)
+Ace
+*** Other                                                             :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E2CB98A9-88A5-4A9C-B0EC-08B42085574C
+:END:
+Translate
+**** Symbol
+NB. 
+**** Meaning (monadic • dyadic)
+Comment
