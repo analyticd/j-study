@@ -1,0 +1,7 @@
+* j-study
+Various helps for learning the J programming language.
+
+- =j-flashcards.org= contains =org-drill= cards, one for each part of speech in J.
+** TODO
+Please fork the repo and add a third node in each part of speech org-drill card to
+provide an monadic and dyadic example of use.
