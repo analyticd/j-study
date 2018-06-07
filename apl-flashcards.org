@@ -775,17 +775,18 @@ Decode (Base)
 ***** Dyadic
 Encode (Representation)
 **** Miscellaneous primitive functions                                :drill:
+SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
 :DRILL_CARD_TYPE: twosided
 :ID:       77DD2377-8D10-4C44-97F5-6A610BEFC915
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_AVERAGE_QUALITY: 2.0
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:16]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:40]
 :END:
 ***** Symbol
 ⌹
@@ -952,12 +953,12 @@ Tangent Y
 :ID:       87AD7A48-DA37-4C30-AB92-ECAECEAC47B6
 :DRILL_LAST_INTERVAL: 0.0
 :DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 0.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:17]
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:40]
 :END:
 ***** (-X) ○ Y
 Arcsinh Y
@@ -1034,3 +1035,898 @@ a
 +Y
 ***** X
 10
+
+* APL standard names and synonyms                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+:PROPERTIES:
+:DRILL_HEADING: APL symbols
+:DRILL_CARD_TYPE: multisided
+:DRILL_INSTRUCTIONS:
+:END:
+
+  |Symbol|Symbol name|Meaning|
+  | ≥ | Aft       | Is greater than or equal to, Not less than       |
+  | > | After     | Is greater than                                  |
+  | { | All       | Catalogue, Generalized cartesian product         |
+  | ∧ | And       | Least common multiple,                           |
+  |   |           | And (on booleans)                                |
+  | ⊤ | Antibase  | Representation, Encode                           |
+  | ⊥ | Base      | Base value, Decode                               |
+  | < | Before    | Is less than                                     |
+  | < | Box       | Enclose                                          |
+  | ⊃ | Box open  | Conditional enclose                              |
+  | , | By        | Catenate along last axis                         |
+  | ⍉ | Cant      |                                                  |
+  | ⌈ | Ceiling   |                                                  |
+  | ○ | Circle    | See definitions                                  |
+  | ⍳ | Count     | Integers to                                      |
+  | ≤ | Cycle     |                                                  |
+  | ? | Deal      | Pseudo-random draws without replacement          |
+  | ⍒ | Downgrade |                                                  |
+  | ↓ | Drop      |                                                  |
+  | = | Equal     | Is equal to, Equals                              |
+  | ⍎ | Execute   |                                                  |
+  | ! | Factorial |                                                  |
+  | ⌊ | Floor     | Integer part of                                  |
+  | ≤ | Fore      | Is less than or equal to,                        |
+  |   |           | Not greater than                                 |
+  | ⍕ | Format    |                                                  |
+  | { | From      |                                                  |
+  | ⍋ | Grade     |                                                  |
+  | ∊ | In        | Is a member of, Belongs to                       |
+  | ⍷ | In        | String search                                    |
+  | ⍳ | Index     | Index of                                         |
+  | ⍸ | Index     | String search index                              |
+  | ⌹ | Inverse   | Matrix inverse;                                  |
+  |   |           | Matrix division                                  |
+  | ⊣ | Left      | Lev                                              |
+  | ~ | Less      | Set difference                                   |
+  | ⊃ | Index     | Index of                                         |
+  | ⍟ | Log       | Natural logarithm; Base-e log                    |
+  | ≡ | Match     |                                                  |
+  | + | Mate      | Conjugate                                        |
+  | ⌈ | Maximum   |                                                  |
+  | ⌊ | Minimum   |                                                  |
+  | - | Minus     | Negative, Subtract, Less                         |
+  | ≥ | Mix       | Permutation from cycles                          |
+  | [ | Mix       | Permute                                          |
+  | ∪ | Mix index | Permutation index                                |
+  | ⍲ | Nand      | Not and                                          |
+  | ⍱ | Nor       | Not or                                           |
+  | ~ | Not       |                                                  |
+  | ↑ | Nub       | Distinct elements of                             |
+  | = | Nub in    |                                                  |
+  | ≠ | Nubsieve  |                                                  |
+  | > | Open      | Disclose                                         |
+  | ∨ | Or        | Greatest common divisor, Or (on booleans)        |
+  | ! | Out of    | Binomial coefficients; No. of combinations       |
+  | ⍪ | Over      | Catenate along leading axis                      |
+  | ÷ | Per       | Reciprocal; Divided by, Over                     |
+  | ○ | Pi        | Pi times                                         |
+  | + | Plus      | Add, Added to                                    |
+  | * | Power     | Exponential, e^⍵, Antilog; To the power, Antilog |
+  | , | Ravel     |                                                  |
+  | ↓ | Raze      |                                                  |
+  | ∊ | Raze in   |                                                  |
+  | ⍴ | Reshape   |                                                  |
+  | | |Residue    |Remainder, Modulo                                 |
+  | ⌽ | Reverse   |                                                  |
+  | ⊢ | Right     | Identity; Dex                                    |
+  | ? | Roll      | Pseudo-random choice                             |
+  | ⌽ | Rotate    | Rotate along last axis                           |
+  | ⊖ | Rowel     | Rotate along leading axis                        |
+  | ⍴ | Shape     |                                                  |
+  | | | Size      |Absolute value, Magnitude                         |
+  | ⍪ | Table     |                                                  |
+  | ↑ | Take      |                                                  |
+  | × | Times     | Multiplied by                                    |
+  | × | Trend     | Sign, Signum, Direction, Direction cosines       |
+  | ≠ | Unequal   | Is unequal to                                    |
+  | ⊖ | Upset     | Reverse on leading axis                          |
+** Cards                                                           :noexport:
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       DAEF2391-857E-43A5-81A5-53EC8BE71967
+:END:
+**** Symbol
+≥
+**** Symbol name
+Aft
+**** Meaning
+Is greater than or equal to, Not less than
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       820639EE-DDCA-4694-86ED-382E3E970B0F
+:END:
+**** Symbol
+>
+**** Symbol name
+After
+**** Meaning
+Is greater than
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       38E99E78-35B0-4E20-BFDA-743FAF5F5A51
+:END:
+**** Symbol
+{
+**** Symbol name
+All
+**** Meaning
+Catalogue, Generalized cartesian product
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       02E745BA-E4B4-42D1-BECF-F3CF2E1F8FB4
+:END:
+**** Symbol
+∧
+**** Symbol name
+And
+**** Meaning
+Least common multiple,
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       3F6061AD-25B5-43D7-9BBC-7B23C1E9FB45
+:END:
+**** Meaning
+And (on booleans)
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       7A7A116F-A387-4892-9FCD-70C96B5BECDD
+:END:
+**** Symbol
+⊤
+**** Symbol name
+Antibase
+**** Meaning
+Representation, Encode
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       F15AB1C9-874E-49D5-9CFD-14199686DF18
+:END:
+**** Symbol
+⊥
+**** Symbol name
+Base
+**** Meaning
+Base value, Decode
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       BEF8286C-0118-463F-A37B-1A30D5B1CB5E
+:END:
+**** Symbol
+<
+**** Symbol name
+Before
+**** Meaning
+Is less than
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       D3B340CA-C0F1-4DC5-9AA4-B93AB989F1F9
+:END:
+**** Symbol
+<
+**** Symbol name
+Box
+**** Meaning
+Enclose
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       0345B6B6-6241-4F32-A1A0-F4A2F67F7C76
+:END:
+**** Symbol
+⊃
+**** Symbol name
+Box open
+**** Meaning
+Conditional enclose
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       28D1AB5D-033D-4027-A085-91CB5665479A
+:END:
+**** Symbol
+,
+**** Symbol name
+By
+**** Meaning
+Catenate along last axis
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       C8D07AC7-DEE0-44DD-96B3-A91380019735
+:END:
+**** Symbol
+⍉
+**** Symbol name
+Cant
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       971593D8-C30F-4C51-B29E-6B954C47BD89
+:END:
+**** Symbol
+⌈
+**** Symbol name
+Ceiling
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       0F765D39-8C36-4DDD-B2D3-81744352FFEC
+:END:
+**** Symbol
+○
+**** Symbol name
+Circle
+**** Meaning
+See definitions
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       A5D7CDC9-2B29-486C-B905-EC075E660987
+:END:
+**** Symbol
+⍳
+**** Symbol name
+Count
+**** Meaning
+Integers to
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       210C18E1-7CE6-44D5-B3A2-6D77D90644B8
+:END:
+**** Symbol
+≤
+**** Symbol name
+Cycle
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       F921C88D-7613-45D6-A0F4-A0DAA862B53B
+:END:
+**** Symbol
+?
+**** Symbol name
+Deal
+**** Meaning
+Pseudo-random draws without replacement
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       E1D8537B-74D6-4D93-B81C-AEFEA8CED744
+:END:
+**** Symbol
+⍒
+**** Symbol name
+Downgrade
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       8D967851-B742-4800-9ED9-00B95D94C43F
+:END:
+**** Symbol
+↓
+**** Symbol name
+Drop
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       8F435E07-A27C-49D1-892D-C70875ADF315
+:END:
+**** Symbol
+=
+**** Symbol name
+Equal
+**** Meaning
+Is equal to, Equals
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       C31D47AF-FABB-4F3D-A1A8-32BAE2354FF5
+:END:
+**** Symbol
+⍎
+**** Symbol name
+Execute
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       3846BC99-EA85-4C82-B328-38A5D98AB836
+:END:
+**** Symbol
+!
+**** Symbol name
+Factorial
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       2B63B54B-23AA-4C61-81F0-4F2A3A6D5FFE
+:END:
+**** Symbol
+⌊
+**** Symbol name
+Floor
+**** Meaning
+Integer part of
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       25416022-0864-437A-BB19-9A2E40996996
+:END:
+**** Symbol
+≤
+**** Symbol name
+Fore
+**** Meaning
+Is less than or equal to,
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       2E72CC4B-7A24-4648-B2AC-9B39713968C3
+:END:
+**** Meaning
+Not greater than
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       F8555784-73F0-4656-ADC7-2F8EF5AEE23B
+:END:
+**** Symbol
+⍕
+**** Symbol name
+Format
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       5A15DEB6-C800-475E-AA48-EBC762E55DFD
+:END:
+**** Symbol
+{
+**** Symbol name
+From
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       CBF8B697-3360-43E8-B36D-FE83E005D464
+:END:
+**** Symbol
+⍋
+**** Symbol name
+Grade
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       463B8408-B398-43A8-A3BC-BB01DF350555
+:END:
+**** Symbol
+∊
+**** Symbol name
+In
+**** Meaning
+Is a member of, Belongs to
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       DDD8E71E-C9A0-44CE-9379-7700E3D8247B
+:END:
+**** Symbol
+⍷
+**** Symbol name
+In
+**** Meaning
+String search
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       85B0E4BE-0F01-43CA-BB09-55469104B53A
+:END:
+**** Symbol
+⍳
+**** Symbol name
+Index
+**** Meaning
+Index of
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       2A79FA0C-8757-480A-983E-1538F069E092
+:END:
+**** Symbol
+⍸
+**** Symbol name
+Index
+**** Meaning
+String search index
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       0903EF63-39B1-4842-8D72-A2E1986B3774
+:END:
+**** Symbol
+⌹
+**** Symbol name
+Inverse
+**** Meaning
+Matrix inverse;
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       2787B8FC-991A-487C-BDB7-013167ACA0A5
+:END:
+**** Meaning
+Matrix division
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       5191A9B9-C0B3-4DB2-BDC5-DDB43BAD7912
+:END:
+**** Symbol
+⊣
+**** Symbol name
+Left
+**** Meaning
+Lev
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       A301E036-5D62-4F77-85F0-F6680D8A4515
+:END:
+**** Symbol
+~
+**** Symbol name
+Less
+**** Meaning
+Set difference
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       5F9EE665-6EEA-4C8B-A59E-8ACD1DBA15C3
+:END:
+**** Symbol
+⊃
+**** Symbol name
+Index
+**** Meaning
+Index of
+*** APL symbols                                                       :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       044C930E-20CD-40B4-B3C6-D556541E15EE
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:38]
+:END:
+**** Symbol
+⍟
+**** Symbol name
+Log
+**** Meaning
+Natural logarithm; Base-e log
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       BF4AFACA-9E8E-44C7-B137-70DE5C4B549E
+:END:
+**** Symbol
+≡
+**** Symbol name
+Match
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       3B9E3E55-6601-49FA-B843-35F3D9FD0B54
+:END:
+**** Symbol
++
+**** Symbol name
+Mate
+**** Meaning
+Conjugate
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       2D9292D9-0A92-4AAF-BF50-D8D9419CF473
+:END:
+**** Symbol
+⌈
+**** Symbol name
+Maximum
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       E9B291DC-2B4D-46CA-A540-7C06B4268AF0
+:END:
+**** Symbol
+⌊
+**** Symbol name
+Minimum
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       9A80F42E-13BB-46FF-A25F-C20C9DCAF0C3
+:END:
+**** Symbol
+-
+**** Symbol name
+Minus
+**** Meaning
+Negative, Subtract, Less
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       326F87C1-C35F-4C3C-AFA6-49B53103EFDE
+:END:
+**** Symbol
+≥
+**** Symbol name
+Mix
+**** Meaning
+Permutation from cycles
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       C4CF3297-48B3-4CEB-85E6-A24FC9DFF508
+:END:
+**** Symbol
+[
+**** Symbol name
+Mix
+**** Meaning
+Permute
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       B6F17972-E39E-4F0C-90D2-387B39C6DA78
+:END:
+**** Symbol
+∪
+**** Symbol name
+Mix index
+**** Meaning
+Permutation index
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       B3C16A9C-6655-4D14-B718-DD7540ABE5CB
+:END:
+**** Symbol
+⍲
+**** Symbol name
+Nand
+**** Meaning
+Not and
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       C1907A6F-615F-4626-ADA9-3793E0CA197E
+:END:
+**** Symbol
+⍱
+**** Symbol name
+Nor
+**** Meaning
+Not or
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       2E1202B2-D257-4517-9A53-225B0C85EA45
+:END:
+**** Symbol
+~
+**** Symbol name
+Not
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       9CC988EE-38E4-420C-B225-7614752B4AA3
+:END:
+**** Symbol
+↑
+**** Symbol name
+Nub
+**** Meaning
+Distinct elements of
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       9E895CF3-11EC-4B05-B6C2-77FFC32D12D8
+:END:
+**** Symbol
+=
+**** Symbol name
+Nub in
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       CEFA9025-D5F3-4074-9AD0-F5E37B86724E
+:END:
+**** Symbol
+≠
+**** Symbol name
+Nubsieve
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       6FD2C707-7AA0-440F-960A-3CEB7368E335
+:END:
+**** Symbol
+>
+**** Symbol name
+Open
+**** Meaning
+Disclose
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       7C69B8BC-750C-4251-BF13-4A19997F7974
+:END:
+**** Symbol
+∨
+**** Symbol name
+Or
+**** Meaning
+Greatest common divisor, Or (on booleans)
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       74169860-5D1E-4D9C-865A-60A750BC243A
+:END:
+**** Symbol
+!
+**** Symbol name
+Out of
+**** Meaning
+Binomial coefficients; No. of combinations
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       5013D3F5-F302-4647-BDD1-DA126E8EBC2A
+:END:
+**** Symbol
+⍪
+**** Symbol name
+Over
+**** Meaning
+Catenate along leading axis
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       9C64EB6A-C516-4C52-8A18-16DEEE0A109B
+:END:
+**** Symbol
+÷
+**** Symbol name
+Per
+**** Meaning
+Reciprocal; Divided by, Over
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       B275448D-CD62-4BD8-BA88-A55E3500DDD4
+:END:
+**** Symbol
+○
+**** Symbol name
+Pi
+**** Meaning
+Pi times
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       E985F3D3-B5E3-469E-9490-A2E40C4B1723
+:END:
+**** Symbol
++
+**** Symbol name
+Plus
+**** Meaning
+Add, Added to
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       31DB6B0D-C99B-493E-828B-E31031157C3F
+:END:
+**** Symbol
+*
+**** Symbol name
+Power
+**** Meaning
+Exponential, e^⍵, Antilog; To the power, Antilog
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       C20E89BA-561F-4CC6-9A3C-DD3AAD85EA85
+:END:
+**** Symbol
+,
+**** Symbol name
+Ravel
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       DD72FE79-FCFB-4529-B463-7AD619E80225
+:END:
+**** Symbol
+↓
+**** Symbol name
+Raze
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       B9C6F451-2134-4FC5-94C2-BC49FB000F84
+:END:
+**** Symbol
+∊
+**** Symbol name
+Raze in
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       843C11EB-72AA-4C72-8015-19B5360AB83F
+:END:
+**** Symbol
+⍴
+**** Symbol name
+Reshape
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       D3CF32C0-A779-4595-B2D2-B63369575D5A
+:END:
+**** Meaning
+Residue
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       D2B34315-142D-4C32-B876-AC29171B1CA0
+:END:
+**** Symbol
+⌽
+**** Symbol name
+Reverse
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       59B443BF-B5F4-4E68-9C3F-B8F315DD8E0E
+:END:
+**** Symbol
+⊢
+**** Symbol name
+Right
+**** Meaning
+Identity; Dex
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       8EAB7634-7C1B-4098-80BB-FC8CFB5EB6FF
+:END:
+**** Symbol
+?
+**** Symbol name
+Roll
+**** Meaning
+Pseudo-random choice
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       38A90381-48AC-4029-A3E1-052536F9CF62
+:END:
+**** Symbol
+⌽
+**** Symbol name
+Rotate
+**** Meaning
+Rotate along last axis
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       128C3A3F-E7CA-4F68-B325-F4522666FFE1
+:END:
+**** Symbol
+⊖
+**** Symbol name
+Rowel
+**** Meaning
+Rotate along leading axis
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       E62003FA-7971-4BFE-80B9-336DE810F49B
+:END:
+**** Symbol
+⍴
+**** Symbol name
+Shape
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       9BC5F59F-4658-4E78-B6C8-DB4EFD14EBE2
+:END:
+**** Meaning
+Size
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       7BAEEA8A-59B5-4B8A-84DF-2AB640A9536D
+:END:
+**** Symbol
+⍪
+**** Symbol name
+Table
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       D37A13FE-DCBE-447A-AA22-A8D94EDFCE0A
+:END:
+**** Symbol
+↑
+**** Symbol name
+Take
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       A16D694D-B22B-4D81-86A5-C85D99A19A86
+:END:
+**** Symbol
+×
+**** Symbol name
+Times
+**** Meaning
+Multiplied by
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       5FC128D2-6E57-408E-B4D5-AE0E995B7427
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:39]
+:END:
+**** Symbol
+×
+**** Symbol name
+Trend
+**** Meaning
+Sign, Signum, Direction, Direction cosines
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       29EE9EB2-566F-47E3-B975-F5C17CC7C9AF
+:END:
+**** Symbol
+≠
+**** Symbol name
+Unequal
+**** Meaning
+Is unequal to
+*** APL symbols                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: multisided
+:ID:       0C442A09-528E-404E-9157-3AF5B47909B1
+:END:
+**** Symbol
+⊖
+**** Symbol name
+Upset
+**** Meaning
+Reverse on leading axis
