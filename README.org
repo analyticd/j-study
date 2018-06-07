@@ -1,8 +1,10 @@
 * J & APL study
-Various helps for learning the J and APL programming languages.
+Various helps for learning the =J= and =APL= programming languages.
 
-- =j-flashcards.org= contains =org-drill= cards, one for each part of speech in J.
-- =apl-flashcards.org= contains =org-drill= cards, one for each primitive in APL.
+- =j-flashcards.org= contains =org-drill= cards, one for each part of speech in =J=.
+- =apl-flashcards.org= contains =org-drill= cards, one for each primitive in =APL=.
 ** TODO
 Please fork the repo and add another child node in each =org-drill= card to
 provide an monadic and dyadic example of use.
+** Note
+The =org-drill= cards are generated from the =org= tables using the =org-drill-table= package.
