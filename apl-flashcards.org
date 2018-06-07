@@ -1,0 +1,1036 @@
+
+* APL flashcards
+** Table 1: Scalar Primitive Functions
+:PROPERTIES:
+:DRILL_HEADING: Scalar primitive functions
+:DRILL_CARD_TYPE: twosided
+:DRILL_INSTRUCTIONS:
+:END:
+  
+| Symbol|Monadic            |Dyadic                     |
+|-------+-------------------+---------------------------|
+| +     |Identity           |Plus (Add)                 |
+| -     |Negative           |Minus (Subtract)           |
+| ×     |Signum             |Times (Multiply)           |
+| ÷     |Reciprocal         |Divide                     |
+| |     |Magnitude          |Residue                    |
+| ⌊     |Floor              |Minimum                    |
+| ⌈     |Ceiling            |Maximum                    |
+| *     |Exponential        |Power                      |
+| ⍟     |Natural Logarithm  |Logarithm                  |
+| ○     |Pi Times           |Circular                   |
+| !     |Factorial          |Binomial                   |
+| ~     |Not                |                           |
+| ?     |Roll               |                           |
+| ∊     |Type (See Enlist)  |                           |
+| ^     |                   |And                        |
+| ∨     |                   |Or                         |
+| ⍲     |                   |Nand                       |
+| ⍱     |                   |Nor                        |
+| <     |                   |Less                       |
+| ≤     |                   |Less Or Equal              |
+| =     |                   |Equal                      |
+| ≥     |                   |Greater Or Equal           |
+| >     |                   |Greater                    |
+| ≠     |                   |Not Equal                 |
+
+*** Cards                                                          :noexport:
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       BFB5E482-7782-4537-9534-EA835043BD24
+:END:
+***** Symbol
++
+***** Monadic
+Identity
+***** Dyadic
+Plus (Add)
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F4D85E29-2A64-4BA8-9BEA-AD7EA5BB24BB
+:END:
+***** Symbol
+-
+***** Monadic
+Negative
+***** Dyadic
+Minus (Subtract)
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       1D7B1D19-1618-489A-88F7-1EFDAFA7B4EA
+:END:
+***** Symbol
+×
+***** Monadic
+Signum
+***** Dyadic
+Times (Multiply)
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       02E07DD2-CCFA-4A6E-B69F-2B6CC0745C15
+:END:
+***** Symbol
+÷
+***** Monadic
+Reciprocal
+***** Dyadic
+Divide
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       83D77565-E89B-4C3B-882E-077B8B0C6863
+:END:
+***** Dyadic
+Magnitude
+**** Scalar primitive functions                                       :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       14271E0D-5B43-4A2E-B204-E6DE173940B2
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:18]
+:END:
+***** Symbol
+⌊
+***** Monadic
+Floor
+***** Dyadic
+Minimum
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       2790DFD2-186D-4342-816B-E8B7F9CAFA4F
+:END:
+***** Symbol
+⌈
+***** Monadic
+Ceiling
+***** Dyadic
+Maximum
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       14E54CF6-9DB1-4020-8280-337B0B2870AF
+:END:
+***** Symbol
+*
+***** Monadic
+Exponential
+***** Dyadic
+Power
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E242AEE1-2DA5-4012-83D1-E38CF5B64672
+:END:
+***** Symbol
+⍟
+***** Monadic
+Natural Logarithm
+***** Dyadic
+Logarithm
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       7E35F38D-9EAD-45B8-825A-C02BAE1A8418
+:END:
+***** Symbol
+○
+***** Monadic
+Pi Times
+***** Dyadic
+Circular
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       9102F1C7-D5E0-4DE6-BD69-6842264E3E9E
+:END:
+***** Symbol
+!
+***** Monadic
+Factorial
+***** Dyadic
+Binomial
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       DA67A641-C180-4269-AE3A-CF4E5A03C556
+:END:
+***** Symbol
+~
+***** Monadic
+Not
+***** Dyadic
+Not
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       656F6FD5-A3C7-4F41-83D6-F6C96A40ED91
+:END:
+***** Symbol
+?
+***** Monadic
+Roll
+***** Dyadic
+Roll
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       4DAFCECE-D146-469B-BC78-7C7374C7DA53
+:END:
+***** Symbol
+∊
+***** Monadic
+Type (See Enlist)
+***** Dyadic
+Type (See Enlist)
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       6CF7546F-A56A-4A1E-A32E-DDDCC7B391AE
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:16]
+:END:
+***** Symbol
+^
+***** Dyadic
+And
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E3C40006-D26B-4307-B209-C85B970CFA3F
+:END:
+***** Symbol
+∨
+***** Dyadic
+Or
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       23984B73-5B5C-4E33-B76E-FA65F2F06BFE
+:END:
+***** Symbol
+⍲
+***** Dyadic
+Nand
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       2B9BBE19-C79D-4F61-BE20-FE4E2D6BB21F
+:END:
+***** Symbol
+⍱
+***** Dyadic
+Nor
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       8208F96E-6203-4715-A73F-3758CAEF23DC
+:END:
+***** Symbol
+<
+***** Dyadic
+Less
+**** Scalar primitive functions                                       :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E34F0380-FA09-4CFB-9B5E-37177EA4E1F7
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:17]
+:END:
+***** Symbol
+≤
+***** Dyadic
+Less Or Equal
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       139CD44C-5F3D-40C1-AC6A-1723A6868C3C
+:END:
+***** Symbol
+=
+***** Dyadic
+Equal
+**** Scalar primitive functions                                       :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       5E1A0DBB-77B7-48FA-90D8-34AC3A480F03
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:16]
+:END:
+***** Symbol
+≥
+***** Dyadic
+Greater Or Equal
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       12B99DDA-D4A8-4745-89C2-7ECA67DC1FE4
+:END:
+***** Symbol
+>
+***** Dyadic
+Greater
+**** Scalar primitive functions                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       F98DF34A-5D0F-478C-B582-DD66DE545D64
+:END:
+***** Symbol
+≠
+***** Dyadic
+Not Equal
+** Table 3: Structural Primitive Functions
+:PROPERTIES:
+:DRILL_HEADING: Structural primitive functions
+:DRILL_CARD_TYPE: twosided
+:DRILL_INSTRUCTIONS:
+:END:
+
+| Symbol|Monadic                |Dyadic|
+| ⍴     |Shape                  |Reshape|
+| ,     |Ravel []               |Catenate/Laminate[]|
+| ⍪     |Table                  |Catenate First / Laminate []|
+| ⌽     |Reverse []             |Rotate []|
+| ⊖     |Reverse First []       |Rotate First []|
+| ⍉     |Transpose              |Transpose|
+| ↑     |Mix/Disclose (First) []|$|
+| ↓     |Split []               |$|
+| ⊂     |Enclose []             |Partitioned Enclose []|
+| ∊     |Enlist (See Type)      |$|
+*** Cards                                                          :noexport:
+**** Structural primitive functions                                   :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       6CDEDA14-EC7D-4DD8-91D9-F356F6917665
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:16]
+:END:
+***** Symbol
+⍴
+***** Monadic
+Shape
+***** Dyadic
+Reshape
+**** Structural primitive functions                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       EF2624CF-3FDB-4BCB-82EE-6DC61BC1FE1C
+:END:
+***** Symbol
+,
+***** Monadic
+Ravel []
+***** Dyadic
+Catenate/Laminate[]
+**** Structural primitive functions                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       DC1F1EFD-8A4A-4551-A551-C1F1C8FA8ABB
+:END:
+***** Symbol
+⍪
+***** Monadic
+Table
+***** Dyadic
+Catenate First / Laminate []
+**** Structural primitive functions                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       84096AB8-A5B4-4FE3-B7CD-C600E055AE28
+:END:
+***** Symbol
+⌽
+***** Monadic
+Reverse []
+***** Dyadic
+Rotate []
+**** Structural primitive functions                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       1A4A138C-7650-4165-B762-B56279F729CC
+:END:
+***** Symbol
+⊖
+***** Monadic
+Reverse First []
+***** Dyadic
+Rotate First []
+**** Structural primitive functions                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       1C7F8D89-94EB-471C-B713-7E9736415B4D
+:END:
+***** Symbol
+⍉
+***** Monadic
+Transpose
+***** Dyadic
+Transpose
+**** Structural primitive functions                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       0B31BEAF-57EE-4019-ABC6-8737EE985E24
+:END:
+***** Symbol
+↑
+***** Monadic
+Mix/Disclose (First) []
+***** Dyadic
+Take
+**** Structural primitive functions                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       14C6287A-8B14-4DBC-ADF9-5314434FD2C8
+:END:
+***** Symbol
+↓
+***** Monadic
+Split []
+***** Dyadic
+Drop
+**** Structural primitive functions                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       67A1FB11-FB39-464D-980A-7BCFE6400B21
+:END:
+***** Symbol
+⊂
+***** Monadic
+Enclose []
+***** Dyadic
+Partitioned Enclose []
+**** Structural primitive functions                                   :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       14281203-4876-48ED-A503-1343876E46D1
+:END:
+***** Symbol
+∊
+***** Monadic
+Enlist (See Type)
+***** Dyadic
+Membership
+** Table 4: Selection Primitive Functions
+:PROPERTIES:
+:DRILL_HEADING: Selection primitive functions
+:DRILL_CARD_TYPE: twosided
+:DRILL_INSTRUCTIONS:
+:END:
+
+| Symbol|Monadic              |  Dyadic|
+| ⊃     |Disclose /Mix        |  Pick|
+| ↑     |$                    |  Take []|
+| ↓     |$                    |  Drop []|
+| /     |                     |  Replicate []|
+| ⌿     |                     |  Replicate First []|
+| \     |                     |  Expand []|
+| ⍀     |                     |  Expand First []|
+| ~     |$                    |  Without (Excluding)|
+| ∩     |Unique               |  Intersection|
+| ∪     |                     |  Union|
+| ⊣     |Same                 |  Left|
+| ⊢     |Identity             |  Right|
+*** Cards                                                          :noexport:
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       315F398D-0646-4B4C-84FE-015404B6421C
+:END:
+***** Symbol
+⊃
+***** Monadic
+Disclose /Mix
+***** Dyadic
+Pick
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       DEBF4932-C092-4895-BA3A-9DCEDFA474F0
+:END:
+***** Symbol
+↑
+***** Monadic
+Mix / First
+***** Dyadic
+Take []
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       7F87C7E0-D8C3-4E68-AD7A-1AE35AC2C0A0
+:END:
+***** Symbol
+↓
+***** Monadic
+Split
+***** Dyadic
+Drop []
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       04E46BC6-2D89-483A-96D8-D20D1894D788
+:END:
+***** Symbol
+/
+***** Dyadic
+Replicate []
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       A1F8B2AA-6FBF-4F80-B260-0F5F4ED8095D
+:END:
+***** Symbol
+⌿
+***** Dyadic
+Replicate First []
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       981324E4-BD82-4C4D-9C86-1C2A4AF57DE4
+:END:
+***** Symbol
+\
+***** Dyadic
+Expand []
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       7497D1FE-599B-452C-B9E2-534B4861488F
+:END:
+***** Symbol
+⍀
+***** Dyadic
+Expand First []
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       4FDC550B-F205-4D82-BF79-63E096DD9CFB
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:18]
+:END:
+***** Symbol
+~
+***** Monadic
+Not
+***** Dyadic
+Without (Excluding)
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       5747573B-10AE-420C-92DA-C808342A285A
+:END:
+***** Symbol
+∩
+***** Monadic
+Unique
+***** Dyadic
+Intersection
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       B4CD78AF-F214-47CF-A690-4540946A1A11
+:END:
+***** Symbol
+∪
+***** Dyadic
+Union
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       1646705F-3904-4DB9-99B4-DF8685093EB8
+:END:
+***** Symbol
+⊣
+***** Monadic
+Same
+***** Dyadic
+Left
+**** Selection primitive functions                                    :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       8E7E5F6B-5635-4ED0-B091-5889E21149DB
+:END:
+***** Symbol
+⊢
+***** Monadic
+Identity
+***** Dyadic
+Right
+** Table 5: Selector Primitive Functions
+:PROPERTIES:
+:DRILL_HEADING: Selector primitive functions
+:DRILL_CARD_TYPE: twosided
+:DRILL_INSTRUCTIONS:
+:END:
+
+| Symbol|Monadic             |    Dyadic|
+| ⍳     |Index Generator     |    Index Of|
+| ∊     |$                   |    Membership|
+| ⍋     |Grade Up            |    Grade Up|
+| ⍒     |Grade Down          |    Grade Down|
+| ?     |$                   |    Deal|
+| ⍷     |                    |    Find|
+*** Cards                                                          :noexport:
+**** Selector primitive functions                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       2283C3AD-D999-4E38-9749-2A772BA9F13D
+:END:
+***** Symbol
+⍳
+***** Monadic
+Index Generator
+***** Dyadic
+Index Of
+**** Selector primitive functions                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       0935C70D-EE5E-44EF-9BC1-375D50E15765
+:END:
+***** Symbol
+∊
+***** Monadic
+Enlist
+***** Dyadic
+Membership
+**** Selector primitive functions                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       BDD2F3A9-CE8B-4E23-AF03-15B6E046C503
+:END:
+***** Symbol
+⍋
+***** Monadic
+Grade Up
+***** Dyadic
+Grade Up
+**** Selector primitive functions                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       D9030EA2-1193-4567-AB4D-957A47F8257D
+:END:
+***** Symbol
+⍒
+***** Monadic
+Grade Down
+***** Dyadic
+Grade Down
+**** Selector primitive functions                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       FB3D644E-3578-4114-A78B-BF347591D604
+:END:
+***** Symbol
+?
+***** Monadic
+Roll
+***** Dyadic
+Deal
+**** Selector primitive functions                                     :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       42860A32-CC81-4739-B85A-83C5FBB609F0
+:END:
+***** Symbol
+⍷
+***** Dyadic
+Find
+** Table 6: Miscellaneous Primitive Functions
+:PROPERTIES:
+:DRILL_HEADING: Miscellaneous primitive functions
+:DRILL_CARD_TYPE: twosided
+:DRILL_INSTRUCTIONS:
+:END:
+
+| Symbol|Monadic             |   Dyadic|
+| ⍴     |Shape               |   $|
+| ≡     |Depth               |   Match|
+| ≢     |                    |  Not Match|
+| ⍎     |Execute             |   Execute|
+| ⍕     |Format              |   Format|
+| ⊥     |                    |   Decode (Base)|
+| ⊤     |                    |   Encode (Representation)|
+| ⌹     |Matrix Divide       |   Matrix Inverse|
+*** Cards                                                          :noexport:
+**** Miscellaneous primitive functions                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       9B26A779-4D0E-4101-9635-0D0F61073272
+:END:
+***** Symbol
+⍴
+***** Monadic
+Shape
+***** Dyadic
+Reshape
+**** Miscellaneous primitive functions                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       7CFCE8BA-C752-4276-88D5-7AD884CD1DF4
+:END:
+***** Symbol
+≡
+***** Monadic
+Depth
+***** Dyadic
+Match
+**** Miscellaneous primitive functions                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       02C6CD2E-13A3-43E8-B3E1-ED8C39AF3785
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:17]
+:END:
+***** Symbol
+≢
+***** Dyadic
+Not Match
+**** Miscellaneous primitive functions                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       71C8A6CF-08BF-4A6B-AC1C-DA21D5CAC758
+:END:
+***** Symbol
+⍎
+***** Monadic
+Execute
+***** Dyadic
+Execute
+**** Miscellaneous primitive functions                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       06040821-89D7-435F-A804-3315C2E0887F
+:END:
+***** Symbol
+⍕
+***** Monadic
+Format
+***** Dyadic
+Format
+**** Miscellaneous primitive functions                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       A932D7C1-1EB8-4AE2-BAFB-EEB56645B791
+:END:
+***** Symbol
+⊥
+***** Dyadic
+Decode (Base)
+**** Miscellaneous primitive functions                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       0E36BA0C-4D9B-4637-AA4E-845074B76FD3
+:END:
+***** Symbol
+⊤
+***** Dyadic
+Encode (Representation)
+**** Miscellaneous primitive functions                                :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       77DD2377-8D10-4C44-97F5-6A610BEFC915
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:16]
+:END:
+***** Symbol
+⌹
+***** Monadic
+Matrix Divide
+***** Dyadic
+Matrix Inverse
+** Table 7: Special Primitive Functions
+:PROPERTIES:
+:DRILL_HEADING: Special primitive functions
+:DRILL_CARD_TYPE: twosided
+:DRILL_INSTRUCTIONS:
+:END:
+
+| Symbol|Monadic          |      Dyadic|
+| →     |Abort||
+| →     |Branch||
+| ←     |$                |      Assignment|
+| [I]←  |$                |      Assignment(Indexed)|
+| (I)←  |                 |      Assignment(Selective)|
+| []    |                 |      Indexing|
+*** Cards                                                          :noexport:
+**** Special primitive functions                                      :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       3B479A50-4397-4614-A654-E83E4E5D70B1
+:END:
+***** Symbol
+→
+***** Niladic
+Abort
+**** Special primitive functions                                      :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       DE0EA847-6380-40FC-B558-CF42D9A51DB7
+:END:
+***** Symbol
+→
+***** Monadic
+Branch
+**** Special primitive functions                                      :drill:
+SCHEDULED: <2018-06-10 Sun>
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       33DB559F-1AF6-44E6-9EFA-17DAD699565F
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:17]
+:END:
+***** Symbol
+←
+***** Dyadic
+Assignment
+**** Special primitive functions                                      :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       102A1EB9-6C28-44ED-80C0-3C93F9397A05
+:END:
+***** Symbol
+[I]←
+***** Dyadic
+Assignment(Indexed)
+**** Special primitive functions                                      :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       6FAF1B4C-9206-46B8-A601-251F074E0D37
+:END:
+***** Symbol
+(I)←
+***** Dyadic
+Assignment(Selective)
+**** Special primitive functions                                      :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       DA03022D-8155-4492-998E-1BA905C8E6A3
+:END:
+***** Symbol
+[]
+***** Dyadic
+Indexing
+** Circular functions
+:PROPERTIES:
+:DRILL_HEADING: Circular functions
+:DRILL_CARD_TYPE: twosided
+:DRILL_INSTRUCTIONS:
+:END:
+
+| (-X) ○ Y                |   X          |        X○Y|
+| (1-Y*2)*.5              |   0          |        (1-Y*2)*.5|
+| Arcsin Y                |   1          |        Sine Y|
+| Arccos Y                |   2          |        Cosine Y|
+| Arctan Y                |   3          |        Tangent Y|
+| (Y+1)×((Y-1)÷Y+1)*0.5   |   4          |        (1+Y*2)*.5|
+| Arcsinh Y               |   5          |        Sinh Y|
+| Arccosh Y               |   6          |        Cosh Y|
+| Arctanh Y               |   7          |        Tanh Y|
+| -8○Y                    |   8          |        (-1+Y*2)*0.5|
+| Y                       |   9          |        a|
+| +Y                      |   10         |       |Y|
+*** Cards                                                          :noexport:
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       0E1691B6-9102-4808-815E-6B8E2B05C568
+:END:
+***** (-X) ○ Y
+(1-Y*2)*.5
+***** X
+0
+***** X○Y
+(1-Y*2)*.5
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       E1BC1D30-ACD2-4C26-8DC2-13DD67BFD1D4
+:END:
+***** (-X) ○ Y
+Arcsin Y
+***** X
+1
+***** X○Y
+Sine Y
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       2CC12F95-3A6F-41A5-B33B-CD45F33391B1
+:END:
+***** (-X) ○ Y
+Arccos Y
+***** X
+2
+***** X○Y
+Cosine Y
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       DEEE4C92-C4F1-4EC5-9CFD-12C518B39182
+:END:
+***** (-X) ○ Y
+Arctan Y
+***** X
+3
+***** X○Y
+Tangent Y
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       C57DB88E-ED49-4CA8-ACBF-9CF1FCEFF6AB
+:END:
+***** (-X) ○ Y
+(Y+1)×((Y-1)÷Y+1)*0.5
+***** X
+4
+***** X○Y
+(1+Y*2)*.5
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       87AD7A48-DA37-4C30-AB92-ECAECEAC47B6
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:17]
+:END:
+***** (-X) ○ Y
+Arcsinh Y
+***** X
+5
+***** X○Y
+Sinh Y
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       AE0BD5DB-55DB-4C22-80FC-4540F0D8D4C8
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:17]
+:END:
+***** (-X) ○ Y
+Arccosh Y
+***** X
+6
+***** X○Y
+Cosh Y
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       159D7A9D-8095-4C6B-9761-A0E3F49BCD62
+:END:
+***** (-X) ○ Y
+Arctanh Y
+***** X
+7
+***** X○Y
+Tanh Y
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       253B004E-6014-439A-8EF3-B0AEC2716EAD
+:END:
+***** (-X) ○ Y
+-8○Y
+***** X
+8
+***** X○Y
+(-1+Y*2)*0.5
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       869BF5FC-D084-422B-980A-F5B7AFF1A8E4
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:16]
+:END:
+***** (-X) ○ Y
+Y
+***** X
+9
+***** X○Y
+a
+**** Circular functions                                               :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE: twosided
+:ID:       3F53C640-EE73-4C77-9441-32D7A9479B16
+:END:
+***** (-X) ○ Y
++Y
+***** X
+10
