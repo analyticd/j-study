@@ -3,7 +3,7 @@
 ** Table 1: Scalar Primitive Functions
 :PROPERTIES:
 :DRILL_HEADING: Scalar primitive functions
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :DRILL_INSTRUCTIONS:
 :END:
   
@@ -37,7 +37,7 @@
 *** Cards                                                          :noexport:
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       BFB5E482-7782-4537-9534-EA835043BD24
 :END:
 ***** Symbol
@@ -48,7 +48,7 @@ Identity
 Plus (Add)
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       F4D85E29-2A64-4BA8-9BEA-AD7EA5BB24BB
 :END:
 ***** Symbol
@@ -59,7 +59,7 @@ Negative
 Minus (Subtract)
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       1D7B1D19-1618-489A-88F7-1EFDAFA7B4EA
 :END:
 ***** Symbol
@@ -70,7 +70,7 @@ Signum
 Times (Multiply)
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       02E07DD2-CCFA-4A6E-B69F-2B6CC0745C15
 :END:
 ***** Symbol
@@ -81,7 +81,7 @@ Reciprocal
 Divide
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       83D77565-E89B-4C3B-882E-077B8B0C6863
 :END:
 ***** Dyadic
@@ -89,7 +89,7 @@ Magnitude
 **** Scalar primitive functions                                       :drill:
 SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       14271E0D-5B43-4A2E-B204-E6DE173940B2
 :DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
@@ -108,7 +108,7 @@ Floor
 Minimum
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       2790DFD2-186D-4342-816B-E8B7F9CAFA4F
 :END:
 ***** Symbol
@@ -119,18 +119,18 @@ Ceiling
 Maximum
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       14E54CF6-9DB1-4020-8280-337B0B2870AF
 :END:
 ***** Symbol
-*
+  *
 ***** Monadic
 Exponential
 ***** Dyadic
 Power
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       E242AEE1-2DA5-4012-83D1-E38CF5B64672
 :END:
 ***** Symbol
@@ -141,7 +141,7 @@ Natural Logarithm
 Logarithm
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       7E35F38D-9EAD-45B8-825A-C02BAE1A8418
 :END:
 ***** Symbol
@@ -152,7 +152,7 @@ Pi Times
 Circular
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       9102F1C7-D5E0-4DE6-BD69-6842264E3E9E
 :END:
 ***** Symbol
@@ -163,7 +163,7 @@ Factorial
 Binomial
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       DA67A641-C180-4269-AE3A-CF4E5A03C556
 :END:
 ***** Symbol
@@ -174,7 +174,7 @@ Not
 Not
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       656F6FD5-A3C7-4F41-83D6-F6C96A40ED91
 :END:
 ***** Symbol
@@ -185,7 +185,7 @@ Roll
 Roll
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       4DAFCECE-D146-469B-BC78-7C7374C7DA53
 :END:
 ***** Symbol
@@ -195,17 +195,18 @@ Type (See Enlist)
 ***** Dyadic
 Type (See Enlist)
 **** Scalar primitive functions                                       :drill:
+SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       6CF7546F-A56A-4A1E-A32E-DDDCC7B391AE
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 0.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:16]
+:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:43]
 :END:
 ***** Symbol
 ^
@@ -213,7 +214,7 @@ Type (See Enlist)
 And
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       E3C40006-D26B-4307-B209-C85B970CFA3F
 :END:
 ***** Symbol
@@ -222,7 +223,7 @@ And
 Or
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       23984B73-5B5C-4E33-B76E-FA65F2F06BFE
 :END:
 ***** Symbol
@@ -231,7 +232,7 @@ Or
 Nand
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       2B9BBE19-C79D-4F61-BE20-FE4E2D6BB21F
 :END:
 ***** Symbol
@@ -240,7 +241,7 @@ Nand
 Nor
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       8208F96E-6203-4715-A73F-3758CAEF23DC
 :END:
 ***** Symbol
@@ -250,7 +251,7 @@ Less
 **** Scalar primitive functions                                       :drill:
 SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       E34F0380-FA09-4CFB-9B5E-37177EA4E1F7
 :DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
@@ -267,7 +268,7 @@ SCHEDULED: <2018-06-10 Sun>
 Less Or Equal
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       139CD44C-5F3D-40C1-AC6A-1723A6868C3C
 :END:
 ***** Symbol
@@ -277,7 +278,7 @@ Equal
 **** Scalar primitive functions                                       :drill:
 SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       5E1A0DBB-77B7-48FA-90D8-34AC3A480F03
 :DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
@@ -294,7 +295,7 @@ SCHEDULED: <2018-06-10 Sun>
 Greater Or Equal
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       12B99DDA-D4A8-4745-89C2-7ECA67DC1FE4
 :END:
 ***** Symbol
@@ -303,7 +304,7 @@ Greater Or Equal
 Greater
 **** Scalar primitive functions                                       :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       F98DF34A-5D0F-478C-B582-DD66DE545D64
 :END:
 ***** Symbol
@@ -313,7 +314,7 @@ Not Equal
 ** Table 3: Structural Primitive Functions
 :PROPERTIES:
 :DRILL_HEADING: Structural primitive functions
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :DRILL_INSTRUCTIONS:
 :END:
 
@@ -332,7 +333,7 @@ Not Equal
 **** Structural primitive functions                                   :drill:
 SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       6CDEDA14-EC7D-4DD8-91D9-F356F6917665
 :DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
@@ -351,7 +352,7 @@ Shape
 Reshape
 **** Structural primitive functions                                   :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       EF2624CF-3FDB-4BCB-82EE-6DC61BC1FE1C
 :END:
 ***** Symbol
@@ -362,7 +363,7 @@ Ravel []
 Catenate/Laminate[]
 **** Structural primitive functions                                   :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       DC1F1EFD-8A4A-4551-A551-C1F1C8FA8ABB
 :END:
 ***** Symbol
@@ -373,7 +374,7 @@ Table
 Catenate First / Laminate []
 **** Structural primitive functions                                   :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       84096AB8-A5B4-4FE3-B7CD-C600E055AE28
 :END:
 ***** Symbol
@@ -384,7 +385,7 @@ Reverse []
 Rotate []
 **** Structural primitive functions                                   :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       1A4A138C-7650-4165-B762-B56279F729CC
 :END:
 ***** Symbol
@@ -395,7 +396,7 @@ Reverse First []
 Rotate First []
 **** Structural primitive functions                                   :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       1C7F8D89-94EB-471C-B713-7E9736415B4D
 :END:
 ***** Symbol
@@ -406,7 +407,7 @@ Transpose
 Transpose
 **** Structural primitive functions                                   :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       0B31BEAF-57EE-4019-ABC6-8737EE985E24
 :END:
 ***** Symbol
@@ -417,7 +418,7 @@ Mix/Disclose (First) []
 Take
 **** Structural primitive functions                                   :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       14C6287A-8B14-4DBC-ADF9-5314434FD2C8
 :END:
 ***** Symbol
@@ -428,7 +429,7 @@ Split []
 Drop
 **** Structural primitive functions                                   :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       67A1FB11-FB39-464D-980A-7BCFE6400B21
 :END:
 ***** Symbol
@@ -439,7 +440,7 @@ Enclose []
 Partitioned Enclose []
 **** Structural primitive functions                                   :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       14281203-4876-48ED-A503-1343876E46D1
 :END:
 ***** Symbol
@@ -451,7 +452,7 @@ Membership
 ** Table 4: Selection Primitive Functions
 :PROPERTIES:
 :DRILL_HEADING: Selection primitive functions
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :DRILL_INSTRUCTIONS:
 :END:
 
@@ -471,7 +472,7 @@ Membership
 *** Cards                                                          :noexport:
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       315F398D-0646-4B4C-84FE-015404B6421C
 :END:
 ***** Symbol
@@ -482,7 +483,7 @@ Disclose /Mix
 Pick
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       DEBF4932-C092-4895-BA3A-9DCEDFA474F0
 :END:
 ***** Symbol
@@ -493,7 +494,7 @@ Mix / First
 Take []
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       7F87C7E0-D8C3-4E68-AD7A-1AE35AC2C0A0
 :END:
 ***** Symbol
@@ -504,7 +505,7 @@ Split
 Drop []
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       04E46BC6-2D89-483A-96D8-D20D1894D788
 :END:
 ***** Symbol
@@ -513,7 +514,7 @@ Drop []
 Replicate []
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       A1F8B2AA-6FBF-4F80-B260-0F5F4ED8095D
 :END:
 ***** Symbol
@@ -522,7 +523,7 @@ Replicate []
 Replicate First []
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       981324E4-BD82-4C4D-9C86-1C2A4AF57DE4
 :END:
 ***** Symbol
@@ -531,7 +532,7 @@ Replicate First []
 Expand []
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       7497D1FE-599B-452C-B9E2-534B4861488F
 :END:
 ***** Symbol
@@ -539,17 +540,18 @@ Expand []
 ***** Dyadic
 Expand First []
 **** Selection primitive functions                                    :drill:
+SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       4FDC550B-F205-4D82-BF79-63E096DD9CFB
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 0.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:18]
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:42]
 :END:
 ***** Symbol
 ~
@@ -559,7 +561,7 @@ Not
 Without (Excluding)
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       5747573B-10AE-420C-92DA-C808342A285A
 :END:
 ***** Symbol
@@ -570,7 +572,7 @@ Unique
 Intersection
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       B4CD78AF-F214-47CF-A690-4540946A1A11
 :END:
 ***** Symbol
@@ -579,7 +581,7 @@ Intersection
 Union
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       1646705F-3904-4DB9-99B4-DF8685093EB8
 :END:
 ***** Symbol
@@ -590,7 +592,7 @@ Same
 Left
 **** Selection primitive functions                                    :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       8E7E5F6B-5635-4ED0-B091-5889E21149DB
 :END:
 ***** Symbol
@@ -602,7 +604,7 @@ Right
 ** Table 5: Selector Primitive Functions
 :PROPERTIES:
 :DRILL_HEADING: Selector primitive functions
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :DRILL_INSTRUCTIONS:
 :END:
 
@@ -616,7 +618,7 @@ Right
 *** Cards                                                          :noexport:
 **** Selector primitive functions                                     :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       2283C3AD-D999-4E38-9749-2A772BA9F13D
 :END:
 ***** Symbol
@@ -627,7 +629,7 @@ Index Generator
 Index Of
 **** Selector primitive functions                                     :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       0935C70D-EE5E-44EF-9BC1-375D50E15765
 :END:
 ***** Symbol
@@ -638,7 +640,7 @@ Enlist
 Membership
 **** Selector primitive functions                                     :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       BDD2F3A9-CE8B-4E23-AF03-15B6E046C503
 :END:
 ***** Symbol
@@ -649,7 +651,7 @@ Grade Up
 Grade Up
 **** Selector primitive functions                                     :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       D9030EA2-1193-4567-AB4D-957A47F8257D
 :END:
 ***** Symbol
@@ -660,7 +662,7 @@ Grade Down
 Grade Down
 **** Selector primitive functions                                     :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       FB3D644E-3578-4114-A78B-BF347591D604
 :END:
 ***** Symbol
@@ -671,7 +673,7 @@ Roll
 Deal
 **** Selector primitive functions                                     :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       42860A32-CC81-4739-B85A-83C5FBB609F0
 :END:
 ***** Symbol
@@ -681,7 +683,7 @@ Find
 ** Table 6: Miscellaneous Primitive Functions
 :PROPERTIES:
 :DRILL_HEADING: Miscellaneous primitive functions
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :DRILL_INSTRUCTIONS:
 :END:
 
@@ -697,7 +699,7 @@ Find
 *** Cards                                                          :noexport:
 **** Miscellaneous primitive functions                                :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       9B26A779-4D0E-4101-9635-0D0F61073272
 :END:
 ***** Symbol
@@ -708,7 +710,7 @@ Shape
 Reshape
 **** Miscellaneous primitive functions                                :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       7CFCE8BA-C752-4276-88D5-7AD884CD1DF4
 :END:
 ***** Symbol
@@ -718,17 +720,18 @@ Depth
 ***** Dyadic
 Match
 **** Miscellaneous primitive functions                                :drill:
+SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       02C6CD2E-13A3-43E8-B3E1-ED8C39AF3785
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_AVERAGE_QUALITY: 2.0
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:17]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:42]
 :END:
 ***** Symbol
 ≢
@@ -736,7 +739,7 @@ Match
 Not Match
 **** Miscellaneous primitive functions                                :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       71C8A6CF-08BF-4A6B-AC1C-DA21D5CAC758
 :END:
 ***** Symbol
@@ -747,7 +750,7 @@ Execute
 Execute
 **** Miscellaneous primitive functions                                :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       06040821-89D7-435F-A804-3315C2E0887F
 :END:
 ***** Symbol
@@ -758,7 +761,7 @@ Format
 Format
 **** Miscellaneous primitive functions                                :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       A932D7C1-1EB8-4AE2-BAFB-EEB56645B791
 :END:
 ***** Symbol
@@ -767,7 +770,7 @@ Format
 Decode (Base)
 **** Miscellaneous primitive functions                                :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       0E36BA0C-4D9B-4637-AA4E-845074B76FD3
 :END:
 ***** Symbol
@@ -777,7 +780,7 @@ Encode (Representation)
 **** Miscellaneous primitive functions                                :drill:
 SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       77DD2377-8D10-4C44-97F5-6A610BEFC915
 :DRILL_LAST_INTERVAL: 4.0
 :DRILL_REPEATS_SINCE_FAIL: 2
@@ -797,7 +800,7 @@ Matrix Inverse
 ** Table 7: Special Primitive Functions
 :PROPERTIES:
 :DRILL_HEADING: Special primitive functions
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :DRILL_INSTRUCTIONS:
 :END:
 
@@ -811,7 +814,7 @@ Matrix Inverse
 *** Cards                                                          :noexport:
 **** Special primitive functions                                      :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       3B479A50-4397-4614-A654-E83E4E5D70B1
 :END:
 ***** Symbol
@@ -820,7 +823,7 @@ Matrix Inverse
 Abort
 **** Special primitive functions                                      :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       DE0EA847-6380-40FC-B558-CF42D9A51DB7
 :END:
 ***** Symbol
@@ -830,7 +833,7 @@ Branch
 **** Special primitive functions                                      :drill:
 SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       33DB559F-1AF6-44E6-9EFA-17DAD699565F
 :DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
@@ -847,7 +850,7 @@ SCHEDULED: <2018-06-10 Sun>
 Assignment
 **** Special primitive functions                                      :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       102A1EB9-6C28-44ED-80C0-3C93F9397A05
 :END:
 ***** Symbol
@@ -856,7 +859,7 @@ Assignment
 Assignment(Indexed)
 **** Special primitive functions                                      :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       6FAF1B4C-9206-46B8-A601-251F074E0D37
 :END:
 ***** Symbol
@@ -864,9 +867,18 @@ Assignment(Indexed)
 ***** Dyadic
 Assignment(Selective)
 **** Special primitive functions                                      :drill:
+SCHEDULED: <2018-06-10 Sun>
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       DA03022D-8155-4492-998E-1BA905C8E6A3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:43]
 :END:
 ***** Symbol
 []
@@ -875,7 +887,7 @@ Indexing
 ** Circular functions
 :PROPERTIES:
 :DRILL_HEADING: Circular functions
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :DRILL_INSTRUCTIONS:
 :END:
 
@@ -894,7 +906,7 @@ Indexing
 *** Cards                                                          :noexport:
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       0E1691B6-9102-4808-815E-6B8E2B05C568
 :END:
 ***** (-X) ○ Y
@@ -905,7 +917,7 @@ Indexing
 (1-Y*2)*.5
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       E1BC1D30-ACD2-4C26-8DC2-13DD67BFD1D4
 :END:
 ***** (-X) ○ Y
@@ -916,7 +928,7 @@ Arcsin Y
 Sine Y
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       2CC12F95-3A6F-41A5-B33B-CD45F33391B1
 :END:
 ***** (-X) ○ Y
@@ -927,7 +939,7 @@ Arccos Y
 Cosine Y
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       DEEE4C92-C4F1-4EC5-9CFD-12C518B39182
 :END:
 ***** (-X) ○ Y
@@ -938,7 +950,7 @@ Arctan Y
 Tangent Y
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       C57DB88E-ED49-4CA8-ACBF-9CF1FCEFF6AB
 :END:
 ***** (-X) ○ Y
@@ -949,16 +961,16 @@ Tangent Y
 (1+Y*2)*.5
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       87AD7A48-DA37-4C30-AB92-ECAECEAC47B6
 :DRILL_LAST_INTERVAL: 0.0
 :DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 2
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 3
 :DRILL_AVERAGE_QUALITY: 0.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:40]
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:43]
 :END:
 ***** (-X) ○ Y
 Arcsinh Y
@@ -968,16 +980,16 @@ Arcsinh Y
 Sinh Y
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       AE0BD5DB-55DB-4C22-80FC-4540F0D8D4C8
 :DRILL_LAST_INTERVAL: 0.0
 :DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 0.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:17]
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:43]
 :END:
 ***** (-X) ○ Y
 Arccosh Y
@@ -987,7 +999,7 @@ Arccosh Y
 Cosh Y
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       159D7A9D-8095-4C6B-9761-A0E3F49BCD62
 :END:
 ***** (-X) ○ Y
@@ -998,7 +1010,7 @@ Arctanh Y
 Tanh Y
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       253B004E-6014-439A-8EF3-B0AEC2716EAD
 :END:
 ***** (-X) ○ Y
@@ -1009,16 +1021,16 @@ Tanh Y
 (-1+Y*2)*0.5
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       869BF5FC-D084-422B-980A-F5B7AFF1A8E4
 :DRILL_LAST_INTERVAL: 0.0
 :DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 0.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:16]
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:43]
 :END:
 ***** (-X) ○ Y
 Y
@@ -1028,7 +1040,7 @@ Y
 a
 **** Circular functions                                               :drill:
 :PROPERTIES:
-:DRILL_CARD_TYPE: twosided
+:DRILL_CARD_TYPE: multisided
 :ID:       3F53C640-EE73-4C77-9441-32D7A9479B16
 :END:
 ***** (-X) ○ Y
@@ -1635,6 +1647,14 @@ Not
 :PROPERTIES:
 :DRILL_CARD_TYPE: multisided
 :ID:       9CC988EE-38E4-420C-B225-7614752B4AA3
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 0.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 0
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:43]
 :END:
 **** Symbol
 ↑
@@ -1895,12 +1915,12 @@ Multiplied by
 :ID:       5FC128D2-6E57-408E-B4D5-AE0E995B7427
 :DRILL_LAST_INTERVAL: 0.0
 :DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 0.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:39]
+:DRILL_LAST_REVIEWED: [2018-06-06 Wed 20:42]
 :END:
 **** Symbol
 ×
