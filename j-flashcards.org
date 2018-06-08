@@ -1228,23 +1228,74 @@ Translate
 **** Meaning (monadic • dyadic)
 Insert •Table
 *** ADV                                                               :drill:
+SCHEDULED: <2018-06-12 Tue>
 :PROPERTIES:
 :DRILL_CARD_TYPE: twosided
 :ID:       78F8D2F8-4EA2-4EB8-B121-F5D6B09A518B
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 0.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 0
-:DRILL_LAST_REVIEWED: [2018-06-07 Thu 07:41]
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2018-06-08 Fri 13:23]
 :END:
 Translate
 **** Symbol
+#+begin_src j :session
 /.
+#+end_src
 **** Meaning (monadic • dyadic)
 Oblique •Key
+**** Dictionary entry
+#+BEGIN_EXAMPLE
+Oblique                                                                      m/.  u/. _ _ _                                                                          Key
+
+u/.y applies u to each of the oblique lines of a table y . For example:               x u/.y ↔ (=x) u@# y , that is, items of x specify keys for corresponding items of 
+                                                                                      y and u is applied to each collection of y having identical keys. For example:    
+   i.3 4                                                                                                                                                                
+0 1  2  3                                                                                1 2 3 1 3 2 1 </. 'abcdefg'                                                    
+4 5  6  7                                                                             +---+--+--+                                                                       
+8 9 10 11                                                                             |adg|bf|ce|                                                                       
+                                                                                      +---+--+--+                                                                       
+   </. i.3 4                                                                                                                                                            
++-+---+-----+-----+----+--+                                                           x m/.y applies successive verbs from the gerund m to the collections of y,        
+|0|1 4|2 5 8|3 6 9|7 10|11|                                                           extending m cyclically as required.                                               
++-+---+-----+-----+----+--+                                                                                                                                             
+                                                                                                                                                                        
+In general, u/.y is the result of applying u to the oblique lines of _2-cells of                                                                                        
+y . If the rank of y is less than two, y is treated as the table ,.y .                                                                                                  
+                                                                                                                                                                        
+m/.y applies successive verbs from the gerund m to the oblique lines of _2-cells                                                                                        
+of y, extending m cyclically as required. Thus:                                                                                                                         
+                                                                                                                                                                        
+   <`(<@|.) /. i.3 4                                                                                                                                                    
++-+---+-----+-----+----+--+                                                                                                                                             
+|0|4 1|2 5 8|9 6 3|7 10|11|                                                                                                                                             
++-+---+-----+-----+----+--+                                                                                                                                             
+
+The application of a function to diagonals of a table is commonly useful, as in correlation, in convolution, and in products of polynomial coefficients (or,
+equivalently, products of numbers in a fixed base). For example:
+
+   t=: p */ q [ p=: 1 2 1 [ q=: 1 3 3 1
+
+   t ; (+//.t) ; 1 1 &(+//.@(*/)) ^: (i.6) 1
++-------+-------------+-------------+
+|1 3 3 1|1 5 10 10 5 1|1 0  0  0 0 0|
+|2 6 6 2|             |1 1  0  0 0 0|
+|1 3 3 1|             |1 2  1  0 0 0|
+|       |             |1 3  3  1 0 0|
+|       |             |1 4  6  4 1 0|
+|       |             |1 5 10 10 5 1|
++-------+-------------+-------------+
+
+   ((10#.p)*10#.q), 10 #. +//. p */ q
+161051 161051
+
+Unlike polynomial coefficients, the diagonal sums of a multiplication table of digits should be “normalized” if any equal or exceed the radix.
+
+#+END_EXAMPLE
 *** ADV                                                               :drill:
 :PROPERTIES:
 :DRILL_CARD_TYPE: twosided
@@ -1296,9 +1347,60 @@ Suffix •Outfix
 :END:
 Translate
 **** Symbol
- *}
+#+begin_src j 
+*}
+#+end_src
 **** Meaning (monadic • dyadic)
 Item Amend •Amend (m} u})
+**** Dictionary entry
+#+BEGIN_EXAMPLE
+Item Amend                                                                     m}  _ _ _                                                                           Amend
+
+If m is numeric and z=: m} y , then $z equals $m , which equals the shape of an       If m is not a gerund, x m} y is formed by replacing by x those parts of y selected
+item of y . The atom j{z is j{(j{m){y . For example:                                  by m&{ (an error is signalled if such selection requires fill). Thus:             
+                                                                                                                                                                        
+   y=: a.{~(a.i.'A')+i.4 5                                                               y; '%*'(1 3;2 _1)} y                                                           
+   m=: 3 1 0 2 1                                                                      +-----+-----+                                                                     
+   y ; m ; m}y                                                                        |ABCDE|ABCDE|                                                                     
++-----+---------+-----+                                                               |FGHIJ|FGH%J|                                                                     
+|ABCDE|3 1 0 2 1|PGCNJ|                                                               |KLMNO|KLMN*|                                                                     
+|FGHIJ|         |     |                                                               |PQRST|PQRST|                                                                     
+|KLMNO|         |     |                                                               +-----+-----+                                                                     
+|PQRST|         |     |                                                                                                                                                 
++-----+---------+-----+                                                               $x must be a suffix of $m{y , and x has the same effect as ($m{y)$,x . Thus:      
+                                                                                                                                                                        
+                                                                                         y; 'think' 1 2} y                                                              
+                                                                                      +-----+-----+                                                                     
+                                                                                      |ABCDE|ABCDE|                                                                     
+                                                                                      |FGHIJ|think|                                                                     
+                                                                                      |KLMNO|think|                                                                     
+                                                                                      |PQRST|PQRST|                                                                     
+                                                                                      +-----+-----+                                                                     
+
+If m is a gerund, one of its elements determines the index argument to the adverb } , and the others modify the arguments x and y :
+
+x (v0`v1`v2)} y  ↔  (x v0 y) (x v1 y)} (x v2 y) 
+(v0`v1`v2)} y    ↔  (v1 y)} (v2 y)              
+(v1`v2)} y       ↔  (v1 y)} (v2 y)              
+
+For example, the following functions E1, E2, and E3 interchange two rows of a matrix, multiply a row by a constant, and add a multiple of one row to another:
+
+   E1=: <@] C. [  
+   E2=: f`g`[}  
+   E3=: F`g`[}
+   f=: {:@] * {.@] { [
+   F=: [: +/ (1:,{:@]) * (}:@] { [)
+   g=: {.@]
+   M=: i. 4 5
+   M;(M E1 1 3);(M E2 1 10);(M E3 1 3 10)
++--------------+--------------+--------------+-------------------+
+| 0  1  2  3  4| 0  1  2  3  4| 0  1  2  3  4|  0   1   2   3   4|
+| 5  6  7  8  9|15 16 17 18 19|50 60 70 80 90|155 166 177 188 199|
+|10 11 12 13 14|10 11 12 13 14|10 11 12 13 14| 10  11  12  13  14|
+|15 16 17 18 19| 5  6  7  8  9|15 16 17 18 19| 15  16  17  18  19|
++--------------+--------------+--------------+-------------------+
+
+#+END_EXAMPLE
 *** ADV                                                               :drill:
 :PROPERTIES:
 :DRILL_CARD_TYPE: twosided
