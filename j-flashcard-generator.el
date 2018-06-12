@@ -52,7 +52,9 @@ top and bottom."
                     ":END:"
                     "**** Symbol"
                     "#+begin_src j"
-                    ,(first row)
+                    ;; Insert a space before so that asterisk at column one
+                    ;; doesn't render as org headline, e.g., symbol 'times'.
+                    ,(format " %s" (first row))
                     "#+end_src"
                     "**** Name (monadic • dyadic)"))
     (insert-line string))
