@@ -5,10 +5,12 @@
   (insert "\n"))
 
 (defun j-dictionary-url (row)
+  "Get the dictionary URL for the given entry."
   (let ((url (format "%s/%s.htm" (jc-valid-dictionary) (fourth row))))
     url))
 
 (defun j-insert-flashcard (type row)
+  "Generate a flashcard of the given TYPE."
   (dolist (string `(,(format "*** %s               :drill:" type)
                     ":PROPERTIES:"
                     ":DRILL_CARD_TYPE: twosided"
