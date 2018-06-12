@@ -1,8 +1,43 @@
 (require 'helm-j-cheatsheet)
+(require 'w3m)
 
 (defun insert-line (string)
   (insert string)
   (insert "\n"))
+
+(defun j-dictionary-entry (url)
+  "Return rendered text of dictionary entry excluding links at
+top and bottom."
+  (save-excursion
+    (w3m-browse-url url)
+    ;; 2 seconds is enough to access a local copy of the dictionary using w3m on
+    ;; my machine. If you download the docs using JQT package manager they'll
+    ;; install locally. Then as part of your helm-j-cheatsheet setup you'll
+    ;; customize the jc-local-dictionary-url. E.g.,
+    ;; "file:///Applications/j64-806/addons/docs/help/dictionary"
+    (sleep-for 2)
+    (org-w3m-copy-for-org-mode)
+    (with-temp-buffer
+      (yank)
+      (beginning-of-buffer)
+      (re-search-forward "-------------------------------------------------------")
+      (forward-line 1)
+      (beginning-of-line)
+      (let ((beg (point))
+            (end))
+        (re-search-forward "-------------------------------------------------------")
+        (forward-line -1)
+        (beginning-of-line)
+        (setq end (point))
+        (narrow-to-region beg end)
+        ;; Indent one space to avoid any asterisks in column one rendering as an
+        ;; org headline.
+        (beginning-of-buffer)
+        (while (re-search-forward "^" nil t)
+          (goto-char (match-beginning 0))
+          (when (looking-at "^")
+            (replace-match " ")))
+        (buffer-string)))))
 
 (defun j-dictionary-url (row)
   "Get the dictionary URL for the given entry."
@@ -29,7 +64,12 @@
                    (third row)
                  "N/A"))
   (insert-line "**** Dictionary entry")
-  (insert-line (j-dictionary-url row)))
+  (let ((url (j-dictionary-url row)))
+    (insert-line url)
+    (when (featurep 'w3m)
+      (insert-line "#+begin_example")
+      (insert-line (j-dictionary-entry url))
+      (insert-line "#+end_example"))))
 
 (defun j-insert-verb-flashcards ()
   "Iterate through the verbs defined in helm-j-cheatsheet and generate a
@@ -66,4 +106,5 @@
   (insert-line "** Conjunctions")
   (j-insert-conjunction-flashcards)
   (insert-line "** Others")
-  (j-insert-other-flashcards))
+  (j-insert-other-flashcards)
+  (w3m-close-window))
