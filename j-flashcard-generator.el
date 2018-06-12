@@ -1,5 +1,5 @@
-(require 'helm-j-cheatsheet)
-(require 'w3m)
+(require 'helm-j-cheatsheet)  ; Used for jc-valid-dictionary, jc-verbs, jc-adverbs, jc-conjunctions, jc-others
+(require 'w3m)                ; Used to get rendered dictionary entry
 
 (defun insert-line (string)
   (insert string)
